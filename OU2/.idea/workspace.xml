@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e4a75e7-221e-47f1-a337-9f504bbf9672" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kBmBU9RVusCocxFlGSHrHE2jax" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="OU2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e4a75e7-221e-47f1-a337-9f504bbf9672" name="Default Changelist" comment="" />
+      <created>1605182227924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605182227924</updated>
+      <workItem from="1605182229141" duration="2764000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605182973921">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.821@0.0.1536.821" timestamp="1605182973921" />
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1605183979982">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1605183979982" />
+    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1605183979982">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1605183979982" />
+    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1605183979982">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1605183979982" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1605183979982">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1605183979982" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1605182948780">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.821@0.0.1536.821" timestamp="1605182948780" />
+    <state x="431" y="142" width="672" height="678" key="search.everywhere.popup" timestamp="1605184213761">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="431" y="142" width="672" height="678" key="search.everywhere.popup/0.0.1536.821@0.0.1536.821" timestamp="1605184213761" />
+  </component>
+</project>

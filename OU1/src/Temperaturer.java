@@ -46,7 +46,7 @@ public class Temperaturer
         double[] maxT = new double[antalVeckor + 1];
 
         double[] sumT = new double[antalVeckor + 1];
-        double[] medelT = new double[antalVeckor + 1];
+        double[] medT = new double[antalVeckor + 1];
 
 
         // koden ska skrivas här
@@ -55,25 +55,24 @@ public class Temperaturer
 
         System.out.println();
         System.out.println("Beräkningar per vecka: ");
-        System.out.println("-------------------------------------------------------------------------");
-        //Loopar veckorna
-        for(int i = 1; i < t.length;i++)
-        {
 
-            //Första dagen i veckan
+        //Loopar veckorna
+        for(int i = 1; i <= antalVeckor;i++)
+        {
+            //Första inmatningen i veckan
             minT[i] = t[i][1];
             maxT[i] = t[i][1];
 
             sumT[i] = t[i][1];
 
             //Loopar resten av inmatningarna i veckan
-            for (int j = 2; j < t[i].length; j++)
+            for (int j = 2; j <= antalMatningarPerVecka; j++)
             {
                 //Veckans Max
                 if (t[i][j] > maxT[i])
                     maxT[i] = t[i][j];
 
-                    //Veckans min
+                //Veckans min
                 else  if(t[i][j] < minT[i])
                     minT[i] = t[i][j];
 
@@ -82,29 +81,34 @@ public class Temperaturer
             }
 
             //Beräknar medelvärde
-            medelT[i] = sumT[i]/antalMatningarPerVecka;
+            medT[i] = sumT[i]/antalMatningarPerVecka;
 
+        }
+
+        //Skriver ut alla resultat
+        System.out.println("-------------------------------------------------------------------------");
+        for(int i = 1; i <= antalVeckor;i++)
+        {
             //Skriver ut resultatet
-            System.out.println("Vecka: "+ i + "\t| MinT: " + minT[i]  + "\t| MaxT: " + maxT[i] + "\t| SumT: " + sumT[i] + "\t| MedT: " + medelT[i]);
+            System.out.println("Vecka: " + i + "\t| MinT: " + minT[i] + "\t| MaxT: " + maxT[i]
+                                + "\t| SumT: " + sumT[i] + "\t| MedT: " + medT[i]);
             System.out.println("-------------------------------------------------------------------------");
-
         }
         System.out.println();
 
-
+        System.out.println("Beräkningar hela perioden: ");
         // koden ska skrivas här
         // den minsta, den största och medeltemperaturen - hela mätperioden
         double minTemp = minT[1];
         double maxTemp = maxT[1];
         double sumTemp = sumT[1];
-        double medelTemp = 0;
+
         // koden ska skrivas här
         // visa den minsta, den största och medeltemperaturen i hela mätperioden
         // koden ska skrivas här
 
-        System.out.println("Beräkningar hela perioden: ");
-
-        for(int i = 2; i< minT.length; i++)
+        //Resten av veckorna
+        for(int i = 2; i <= antalVeckor; i++)
         {
             //Totala min
             if(minT[i] < minTemp)
@@ -116,11 +120,10 @@ public class Temperaturer
 
             //Ökar på totala summan
             sumTemp += sumT[i];
-
         }
 
         //Beräknar medeltemperaturen
-        medelTemp = sumTemp / (antalMatningarPerVecka*antalVeckor);
+        double medelTemp = sumTemp / (antalMatningarPerVecka * antalVeckor);
 
         //Skriver ut resultat
         System.out.println("minTemp: " + minTemp);
