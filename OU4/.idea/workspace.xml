@@ -56,17 +56,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.OperationerMedNaturligaHeltalGivnaSomTeckenstrangar" />
@@ -82,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606463582454</updated>
       <workItem from="1606463583564" duration="6171000" />
+      <workItem from="1606469921781" duration="60000" />
     </task>
     <servers />
   </component>
@@ -98,6 +88,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="430" height="466" key="DebuggerActiveHint" timestamp="1606464772973">

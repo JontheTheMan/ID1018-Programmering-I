@@ -1,9 +1,16 @@
+import java.util.Random;
+
 public class EU1
 {
 
     public static void main(String[] args)
     {
-        int[] element = new int[16];
+        int[] element = new int[]{18, 64, 23, 32, 90, 189, 19, 13, 16, 8, 21, 45, 225, 30, 20, 16, 1, 13, 20};
+        Random rnd = new Random();
+
+
+        int minElement = min(element);
+        System.out.println("Minsta elementet är " + minElement);
     }
 
 
@@ -13,6 +20,8 @@ public class EU1
     {
         if (element.length == 0)
             throw new IllegalArgumentException("tom samling");
+
+
 
         // hör ihop med spårutskriften 2:
         // int antalVarv = 1;
@@ -25,6 +34,9 @@ public class EU1
 
         int i = 0;
         int j = 0;
+
+        //spårutskrift 1 – för att följa sekvensen
+        System.out.println (java.util.Arrays.toString (sekvens));
 
         while (sekvens.length > 1)
         {
@@ -45,9 +57,7 @@ public class EU1
             antaletPar = antaletTankbaraElement / 2;
             antaletOparadeElement = antaletTankbaraElement % 2;
             antaletTankbaraElement = antaletPar + antaletOparadeElement;
-
-            // spårutskrift 1 – för att följa sekvensen
-            // System.out.println (java.util.Arrays.toString (sekvens));
+            delsekvens = new int[antaletTankbaraElement]; //Lagt till för fel 1
 
 
             // spårutskrift 2 - för att avsluta loopen i förväg
