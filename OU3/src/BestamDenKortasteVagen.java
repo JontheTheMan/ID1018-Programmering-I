@@ -4,22 +4,36 @@ public class BestamDenKortasteVagen
 {
     public static void main(String[] args)
     {
+        //Inmating
+        Scanner in = new Scanner(System.in);
+
         out.println("-- BESTÄM DEN KORTASTE VÄGEN --");
         out.println();
 
+        //Exempelinstans med förbestämda värden
+        exempelInstans();
+
+        //Användaren matar in datan
+        inmatadData(in);
+    }
+
+
+    //En exempelinstans av uppgiften OU3 med förbestämda värden
+    private static void exempelInstans()
+    {
         //Exempelinstans
         out.println("Förbestämt exempelinstans: ");
-        double[] a = new double[]{0, 2, 4, 3};
-        double[][] b = new double[][]{  {},
-                                        {0, 4, 5, 1, 3},
-                                        {0, 2, 4, 3, 6},
-                                        {0, 7, 3, 2, 1}};
+        double[]    a = new double[]  {0, 2, 4, 3};
+        double[][]  b = new double[][]{  {},            //Första platsen i vektorn tom
+                                      {0, 4, 5, 1, 3},
+                                      {0, 2, 4, 3, 6},
+                                      {0, 7, 3, 2, 1}};
 
-        double[] c = new double[]{0, 3, 5, 2, 4};
+        double[]    c = new double[]  {0, 3, 5, 2, 4};
 
         //Beräkningar
-        int[] stationer = DenKortasteVagen.mellanstationer(a, b, c);
-        double avstand = DenKortasteVagen.langd(a, b, c);
+        int[]   stationer = DenKortasteVagen.mellanstationer(a, b, c);
+        double  avstand = DenKortasteVagen.langd(a, b, c);
 
         //Utmatning
         out.println("Kortaste avståndet är " + avstand + " genom U" + stationer[0] + " och V" + stationer[1]);
@@ -27,10 +41,14 @@ public class BestamDenKortasteVagen
 
         out.println("----------------------------------------------------");
         out.println();
+    }
 
+    //Användaren matar själv in datan för uppgiften OU3
+    private static void inmatadData(Scanner in)
+    {
         //Valfri inmating
         out.println("Valfrit Scenario: ");
-        Scanner in = new Scanner(System.in);
+
 
         //Läser in antalet mellanstationer i zonerna
         out.print("Antal mellanstationer i Z2: ");
@@ -41,10 +59,12 @@ public class BestamDenKortasteVagen
         int z3 = in.nextInt();
         in.nextLine();
 
+
+
         //Återanvänder variabler ifrån exemplena
-        a = new double[z2 + 1];
-        b = new double[z2+1][z3 + 1];
-        c = new double[z3 + 1];
+        double[]    a = new double[z2 + 1];
+        double[][]  b = new double[z2+1][z3 + 1];
+        double[]    c = new double[z3 + 1];
 
         //Matar in värdena på mellanstationerna
         //Avstånden till stationerna i Z2
@@ -53,6 +73,7 @@ public class BestamDenKortasteVagen
         for(int i = 1; i < a.length; i++)
             a[i] = in.nextDouble();
         in.nextLine();
+
 
         //Avståndet till stationerna i Z2 till stationerna i Z3
         for(int i = 1; i < a.length; i++)
@@ -73,8 +94,8 @@ public class BestamDenKortasteVagen
 
 
         //Beräkningar
-        stationer = DenKortasteVagen.mellanstationer(a, b, c);
-        avstand = DenKortasteVagen.langd(a, b, c);
+        int[]   stationer = DenKortasteVagen.mellanstationer(a, b, c);
+        double  avstand = DenKortasteVagen.langd(a, b, c);
 
         //Utmatning
         out.println("Kortaste avståndet är " + avstand + " genom U" + stationer[0] + " och V" + stationer[1]);

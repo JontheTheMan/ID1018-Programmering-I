@@ -5,7 +5,7 @@ public class DenKortasteVagen
     // av den andra mellanstationen på index 2 i vektorn.
     public static int[] mellanstationer (double[] a, double[][] b, double[] c)
     {
-        int[] stationer = new int[]{1,1};
+        int[] stationer = new int[] {1,1};
         double dMin = a[1] + b[1][1] + c[1];
 
         for(int i = 1; i < a.length; i++)
@@ -21,18 +21,13 @@ public class DenKortasteVagen
                 }
             }
 
-
         return stationer;
     }
 
     // langd returnerar längden av den kortaste vägen.
-    public static double langd (double[] a, double[][] b, double[] c)
-    {
+    public static double langd (double[] a, double[][] b, double[] c) {
         int[] ms = mellanstationer(a, b, c);
 
         return a[ms[0]] + b[ms[0]][ms[1]] + c[ms[1]];
     }
-
-
-
 }

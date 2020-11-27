@@ -55,17 +55,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BestamDenKortasteVagen" />
@@ -80,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606224174552</updated>
-      <workItem from="1606224175906" duration="2690000" />
+      <workItem from="1606224175906" duration="3029000" />
+      <workItem from="1606461202856" duration="1686000" />
     </task>
     <servers />
   </component>
@@ -97,54 +87,48 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="723" height="421" key="GridCell.Tab.0.bottom" timestamp="1606226827621">
+    <state width="1493" height="398" key="GridCell.Tab.0.bottom" timestamp="1606462897527">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="723" height="421" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1606226827621" />
-    <state width="723" height="421" key="GridCell.Tab.0.center" timestamp="1606226827621">
+    <state width="1493" height="398" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1606462897527" />
+    <state width="1493" height="398" key="GridCell.Tab.0.center" timestamp="1606462897527">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="723" height="421" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1606226827621" />
-    <state width="723" height="421" key="GridCell.Tab.0.left" timestamp="1606226827621">
+    <state width="1493" height="398" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1606462897527" />
+    <state width="1493" height="398" key="GridCell.Tab.0.left" timestamp="1606462897527">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="723" height="421" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1606226827621" />
-    <state width="723" height="421" key="GridCell.Tab.0.right" timestamp="1606226827621">
+    <state width="1493" height="398" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1606462897527" />
+    <state width="1493" height="398" key="GridCell.Tab.0.right" timestamp="1606462897527">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="723" height="421" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1606226827621" />
-    <state width="724" height="244" key="GridCell.Tab.1.bottom" timestamp="1606225292722">
+    <state width="1493" height="398" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1606462897527" />
+    <state width="724" height="244" key="GridCell.Tab.1.bottom" timestamp="1606227219969">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="724" height="244" key="GridCell.Tab.1.bottom/0.0.1536.821@0.0.1536.821" timestamp="1606225292722" />
-    <state width="724" height="244" key="GridCell.Tab.1.center" timestamp="1606225292722">
+    <state width="724" height="244" key="GridCell.Tab.1.bottom/0.0.1536.821@0.0.1536.821" timestamp="1606227219969" />
+    <state width="724" height="244" key="GridCell.Tab.1.center" timestamp="1606227219969">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="724" height="244" key="GridCell.Tab.1.center/0.0.1536.821@0.0.1536.821" timestamp="1606225292722" />
-    <state width="724" height="244" key="GridCell.Tab.1.left" timestamp="1606225292722">
+    <state width="724" height="244" key="GridCell.Tab.1.center/0.0.1536.821@0.0.1536.821" timestamp="1606227219969" />
+    <state width="724" height="244" key="GridCell.Tab.1.left" timestamp="1606227219969">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="724" height="244" key="GridCell.Tab.1.left/0.0.1536.821@0.0.1536.821" timestamp="1606225292722" />
-    <state width="724" height="244" key="GridCell.Tab.1.right" timestamp="1606225292722">
+    <state width="724" height="244" key="GridCell.Tab.1.left/0.0.1536.821@0.0.1536.821" timestamp="1606227219969" />
+    <state width="724" height="244" key="GridCell.Tab.1.right" timestamp="1606227219969">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="724" height="244" key="GridCell.Tab.1.right/0.0.1536.821@0.0.1536.821" timestamp="1606225292722" />
+    <state width="724" height="244" key="GridCell.Tab.1.right/0.0.1536.821@0.0.1536.821" timestamp="1606227219969" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1606224295544">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.821@0.0.1536.821" timestamp="1606224295544" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DenKortasteVagen.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="209" y="31" key="new project wizard" timestamp="1606227214185">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="209" y="31" key="new project wizard/0.0.1536.821@0.0.1536.821" timestamp="1606227214185" />
   </component>
 </project>
