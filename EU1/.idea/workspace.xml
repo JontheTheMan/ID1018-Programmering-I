@@ -46,6 +46,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OU3/OU3.iml" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,6 +73,7 @@
       <workItem from="1606423480936" duration="19000" />
       <workItem from="1606461087672" duration="51000" />
       <workItem from="1606461193363" duration="7000" />
+      <workItem from="1606463126099" duration="452000" />
     </task>
     <servers />
   </component>
@@ -82,5 +97,13 @@
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.821@0.0.1536.821" timestamp="1606461130992" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1606463172740">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.821@0.0.1536.821" timestamp="1606463172740" />
+    <state x="209" y="31" key="new project wizard" timestamp="1606463579937">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="209" y="31" key="new project wizard/0.0.1536.821@0.0.1536.821" timestamp="1606463579937" />
   </component>
 </project>

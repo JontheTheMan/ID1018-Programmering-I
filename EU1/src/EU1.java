@@ -1,4 +1,11 @@
-public class Main {
+public class EU1
+{
+
+    public static void main(String[] args)
+    {
+        int[] element = new int[16];
+    }
+
 
     // min returnerar det minsta elementet i en sekventiell samling.
     // Om samlingen är tom, kastas ett undantag av typen IllegalArgumentException.
