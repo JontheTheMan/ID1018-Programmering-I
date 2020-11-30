@@ -1,10 +1,10 @@
 public class Punkt {
 
-    private String name;
+    private String namn;
     private int x, y;
 
-    public Punkt(String name, int x, int y) {
-        this.name = name;
+    public Punkt(String namn, int x, int y) {
+        this.namn = namn;
         this.x = x;
         this.y = y;
     }
@@ -14,11 +14,11 @@ public class Punkt {
         this.x = punkt.x;
         this.y = punkt.y;
 
-        this.name = new String(punkt.name);
+        this.namn = new String(punkt.namn);
     }
 
     public String getNamn() {
-        return name;
+        return namn;
     }
 
     public int getX() {
@@ -37,17 +37,21 @@ public class Punkt {
         this.y = y;
     }
 
+    public void setNamn(String namn)
+    {
+        this.namn = new String(namn);
+    }
 
-    public double avstand(Punkt punkt) {
+    public double avstand(Punkt avstandTill) {
 
-        int dX = Math.abs(this.x - punkt.x);
-        int dY = Math.abs(this.y - punkt.y);
+        int dX = Math.abs(this.x - avstandTill.x);
+        int dY = Math.abs(this.y - avstandTill.y);
 
         return  Math.sqrt(dX * dX + dY*dY);
     }
 
     public String toString()
     {
-        return "( " + name + " " + x + " " + y + " )";
+        return "( " + namn + " " + x + " " + y + " )";
     }
 }
