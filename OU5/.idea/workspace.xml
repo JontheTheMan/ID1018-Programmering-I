@@ -45,9 +45,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AdventOfCode/Java/AoC" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Application.PolylinjeTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ValjPolylinje">
     <configuration name="PolylinjeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PolylinjeTest" />
       <module name="OU5" />
@@ -57,6 +63,13 @@
     </configuration>
     <configuration name="PunktTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PunktTest" />
+      <module name="OU5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValjPolylinje" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValjPolylinje" />
       <module name="OU5" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValjPolylinje" />
         <item itemvalue="Application.PolylinjeTest" />
         <item itemvalue="Application.PunktTest" />
       </list>
@@ -91,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606745077097</updated>
       <workItem from="1606745078586" duration="278000" />
-      <workItem from="1606745443017" duration="8857000" />
+      <workItem from="1606745443017" duration="16849000" />
     </task>
     <servers />
   </component>
@@ -115,22 +129,26 @@
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.821@0.0.1536.821" timestamp="1606745091423" />
-    <state width="1493" height="322" key="GridCell.Tab.0.bottom" timestamp="1606753504315">
+    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1606807109291">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="1493" height="322" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1606753504315" />
-    <state width="1493" height="322" key="GridCell.Tab.0.center" timestamp="1606753504315">
+    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.821@0.0.1536.821" timestamp="1606807109291" />
+    <state width="723" height="199" key="GridCell.Tab.0.bottom" timestamp="1606820463719">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="1493" height="322" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1606753504315" />
-    <state width="1493" height="322" key="GridCell.Tab.0.left" timestamp="1606753504314">
+    <state width="723" height="199" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1606820463719" />
+    <state width="723" height="199" key="GridCell.Tab.0.center" timestamp="1606820463719">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="1493" height="322" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1606753504314" />
-    <state width="1493" height="322" key="GridCell.Tab.0.right" timestamp="1606753504315">
+    <state width="723" height="199" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1606820463719" />
+    <state width="723" height="199" key="GridCell.Tab.0.left" timestamp="1606820463718">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="1493" height="322" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1606753504315" />
+    <state width="723" height="199" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1606820463718" />
+    <state width="723" height="199" key="GridCell.Tab.0.right" timestamp="1606820463719">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="723" height="199" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1606820463719" />
     <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1606753227427">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
@@ -155,20 +173,13 @@
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state x="904" y="0" width="638" height="827" key="dock-window-1/0.0.1536.821@0.0.1536.821" timestamp="1606750826421" />
+    <state x="360" y="31" key="new project wizard" timestamp="1606762991160">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="360" y="31" key="new project wizard/0.0.1536.821@0.0.1536.821" timestamp="1606762991160" />
     <state x="431" y="142" width="672" height="678" key="search.everywhere.popup" timestamp="1606752365576">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state x="431" y="142" width="672" height="678" key="search.everywhere.popup/0.0.1536.821@0.0.1536.821" timestamp="1606752365576" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Polylinje.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

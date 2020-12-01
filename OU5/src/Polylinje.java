@@ -63,6 +63,10 @@ public class Polylinje {
         return langd;
     }
 
+    public  int antalHorn(){
+        return  horn.length;
+    }
+
     public void laggTill(Punkt horn) {
         Punkt[] h = new Punkt[this.horn.length + 1];
         int i = 0;
