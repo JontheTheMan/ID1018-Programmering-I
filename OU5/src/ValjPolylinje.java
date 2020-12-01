@@ -8,6 +8,9 @@ public class ValjPolylinje {
     public static void main(String[] args) {
         PrintWriter out = new PrintWriter(System.out, true);
 
+        out.println("VÄLJ POLYLINJE:");
+        out.println();
+
         // skapa ett antal slumpmässiga polylinjer
         Polylinje[] polylinjer = new Polylinje[ANTAL_POLYLINJER];
         for (int i = 0; i < ANTAL_POLYLINJER; i++)

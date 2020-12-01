@@ -23,7 +23,11 @@ public class Polylinje {
         for (Punkt p : horn)
             s.append(p.toString());
 
-        s.append("], " + farg + ", " + bredd + "}");
+        s.append("], ");
+        s.append(farg);
+        s.append(", ");
+        s.append(bredd);
+        s.append("}");
 
         return s.toString();
     }
@@ -38,7 +42,7 @@ public class Polylinje {
     }
 
     public String getFarg() {
-        return new String(farg);
+        return farg;
     }
 
     public int getBredd() {
@@ -46,7 +50,7 @@ public class Polylinje {
     }
 
     public void setFarg(String farg) {
-        this.farg = new String(farg);
+        this.farg = farg;
     }
 
     public void setBredd(int bredd) {
@@ -63,8 +67,8 @@ public class Polylinje {
         return langd;
     }
 
-    public  int antalHorn(){
-        return  horn.length;
+    public int antalHorn() {
+        return horn.length;
     }
 
     public void laggTill(Punkt horn) {
@@ -96,10 +100,9 @@ public class Polylinje {
 
 
             //Kopierar resten av hörnen
-            while (i < this.horn.length)
-            {
+            while (i < this.horn.length) {
                 //Läggger till hörnen på i+1 eftersom vi har lagt till ett extra
-                h[i+1] = this.horn[i];
+                h[i + 1] = this.horn[i];
                 i++;
             }
         }
@@ -134,5 +137,42 @@ public class Polylinje {
         }
 
         horn = h;
+    }
+
+
+    public class PolylinjeIterator {
+
+        private int aktuell = -1;
+
+        public PolylinjeIterator()
+        {
+            if(Polylinje.this.horn.length > 0)
+                aktuell = 0;
+        }
+
+        public  boolean finnsHorn()
+        {
+            return  aktuell != -1;
+        }
+
+        public Punkt horn() throws java.util.NoSuchElementException
+        {
+            if(!finnsHorn())
+                throw new java.util.NoSuchElementException("Slut på iterationen");
+
+            return Polylinje.this.horn[aktuell];
+        }
+
+        public void gaFram()
+        {
+            //Stegar fram om det finns mer horn
+            if(finnsHorn() && aktuell < Polylinje.this.horn.length -1)
+                aktuell++;
+
+            else
+                aktuell = -1;
+        }
+
+
     }
 }
