@@ -1,20 +1,24 @@
+import java.io.PrintWriter;
+
 public class Test {
+
 
     public static void main(String[] args)
     {
-        Chessboard board = new Chessboard();
-//        Chessboard.Field field = new Chessboard.Field('a', (byte)1);
-//
-//        field.put(board.new Queen('W'));
-//
-//        System.out.println(field.toString());
-//
-//        Chessboard.Chesspiece chesspiece = field.take();
-//
-//        System.out.println(field.toString());
-//        System.out.println(chesspiece.toString());
+        PrintWriter out = new PrintWriter(System.out, true);
 
-        System.out.println(board);
+        Chessboard board = new Chessboard();
+
+        out.println("Spelplanen");
+        out.println(board);
+
+        out.println("Markera spelpjäsens möjliga drag");
+        board.selectField('d', (byte)4);
+        out.println(board);
+
+        out.println("Avmarkera spelpjäsens möjliga drag");
+        board.unselecctField('d', (byte)4);
+        out.println(board);
 
     }
 }
