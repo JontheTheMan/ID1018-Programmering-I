@@ -14,6 +14,16 @@ public class Polylinje {
             this.horn[i] = new Punkt(horn[i]);
     }
 
+    public Polylinje(Polylinje polylinje)
+    {
+        this.horn = new Punkt[polylinje.horn.length];
+        for(int i = 0; i < horn.length; i++)
+            this.horn[i] = polylinje.horn[i];
+
+        this.bredd = polylinje.bredd;
+        this.farg = polylinje.farg;
+    }
+
 
     public String toString() {
         StringBuilder s = new StringBuilder();

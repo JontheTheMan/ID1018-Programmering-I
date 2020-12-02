@@ -14,17 +14,27 @@ public class PolylinjeTest {
         out.println();
 
         //Testar konstruktor
-        linje = new Polylinje(new Punkt[]{new Punkt("A", 3, 4),
-                                                    new Punkt("B", 5, 4),
-                                                    new Punkt("C", 6, 4)});
+        linje = new Polylinje(new Punkt[]{
+                new Punkt("A", 3, 4),
+                new Punkt("B", 5, 4),
+                new Punkt("C", 6, 4)});
+
         out.println("Linje: " + linje);
         out.println();
 
+        //Testar copykonstruktor
+        Polylinje linjeCopy = new Polylinje(linje);
+        out.println("Linje Kopia: " + linjeCopy);
+        linjeCopy.setFarg("Röd");
+        linjeCopy.setBredd(5);
+        out.println("Ändrar kopian till: " + linjeCopy);
+        out.println("Men linjen är fortfarande: " + linje);
+        out.println();
 
         //Testar getHorn()
         Punkt[] hornCopy = linje.getHorn();
         out.println("Hörn kopierade infrån Lijne: ");
-        for( Punkt h : hornCopy)
+        for (Punkt h : hornCopy)
             out.println(h);
 
         hornCopy[0].setX(1);

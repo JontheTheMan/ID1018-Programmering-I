@@ -27,13 +27,12 @@ public class ValjPolylinje {
         int i = 0;
 
         //Hittar första gula linjen
-        while (i < polylinjer.length) {
+        while (i < polylinjer.length && kortastGula == -1) {
             if (polylinjer[i].getFarg().equals("gul"))
                 kortastGula = i;
 
             i++;
         }
-
 
         //Letar igenom resten
         while (i < polylinjer.length) {
